@@ -407,6 +407,7 @@ class userController extends Controller
          ->with("cat", $cat)
          ->with('all',$cart)
          ->with('prods',$product)
+         
          ->with('sale',$res1);
     }
     
